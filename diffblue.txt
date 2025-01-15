@@ -1,0 +1,27 @@
+Diffblue demo
+
+In this demo, we have used the community/trial version of diffblue which can be used as plugin in intellijIdea.
+Created a demo sb application which has controller which makes a call to mongo db and gets the data
+
+as you can see in the screen, there is no junit test case available and we will use diffblue plugin to generate test case 
+
+
+
+As plugin is integrated, we can see green + icon which can be used to generate test case for a given method. 
+alternatively, can be generated at a class / package level depending on license 
+
+works on Arrange , Act and Assert approach 
+in this demo, we will generate the test case for DemoController and DataService class which interacts with Mongo db 
+
+- First Diffblue , prepares the envt and checks for environment like Jdk version, sb version ,if all the right dependencies a
+are avialable in classpath or not. Once done, it generates the test case
+
+
+ig gives complete details if test cases are completely written or for any reason it fails to generate , it will give us the 
+reason . Also it can generate partial test case which it 
+
+
+if we see for data service it generates partial and looking at reason , it is clearly saying application-test.properties file is missing 
+
+
+lets add it and rerun

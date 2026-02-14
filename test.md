@@ -1,0 +1,6 @@
+```mermaid
+
+flowchart
+  A-->B
+
+```

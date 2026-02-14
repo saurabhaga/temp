@@ -1,6 +1,6 @@
 ```mermaid
 
-flowchart aTD
+flowchart TD
   A --> B
 
 ```
